@@ -2,6 +2,7 @@ import React from 'react';
 
 import Product from '../components/Product';
 
+import '../stylesheets/global.scss';
 import '../stylesheets/listingPage.scss';
 
 class HomePage extends React.Component {

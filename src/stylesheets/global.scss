@@ -1,0 +1,18 @@
+/* -------------------------------------------------------------------------- *\
+    Global Styles
+    This is where we would include reset or normalise, if we were adding it.
+\* -------------------------------------------------------------------------- */
+html {
+    box-sizing: border-box;
+}
+html * {
+    box-sizing: inherit;
+}
+body {
+    background-color: #FFFFFF;
+    color: #3b4153;
+    font-family: Helvetica, Arial, sans-serif;
+}
+img {
+    width: 100%;
+}
