@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import ProductPrice from './product-price';
 
-import '../stylesheets/product';
+import '../stylesheets/product.scss';
 
 const Product = ({
     cta,

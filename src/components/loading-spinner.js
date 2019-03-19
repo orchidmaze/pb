@@ -5,7 +5,7 @@ const LoadingSpinner = ({
     customClass
 }) => {
     return (
-        <p className={customClass}>loading...</p>
+        <span className={customClass}>loading...</span>
     );
 };
 
