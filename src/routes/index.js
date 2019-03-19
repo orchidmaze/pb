@@ -5,6 +5,6 @@ import HomePage from '../views/HomePage';
 
 export default (
     <Router history={hashHistory}>
-        <Route path="/" component={HomePage}/>
+        <Route exact path="/" component={HomePage}/>
     </Router>
 );

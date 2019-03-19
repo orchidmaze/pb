@@ -81,6 +81,9 @@ app.get('*', (req, res) => {
         } else if (props) {
             res.status(200);
             res.render('index', { reactOutput: renderToString(<RouterContext {...props} />) });
+        } else {
+            res.status(404);
+            res.render('404');
         }
     });
 });
