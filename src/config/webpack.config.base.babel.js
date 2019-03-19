@@ -27,7 +27,8 @@ export default {
         ],
         alias: {
             'components': path.resolve(__dirname, '../components')
-        }
+        },
+        extensions: ['.js', '.css', '.scss']
     },
 
     module: {

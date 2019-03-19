@@ -1,6 +1,11 @@
-node_modules/
+# Mac Fluff
 .DS_Store
-dist/
+
+# Generated Folders
+/dist
+/logs
+node_modules
+
+# Project Management
 .idea/
 .tmp/
-logs/
