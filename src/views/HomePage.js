@@ -1,9 +1,10 @@
 import React from 'react';
 
+import LoadingSpinner from '../components/loading-spinner';
 import Product from '../components/product';
 
 import '../stylesheets/global.scss';
-import '../stylesheets/listingPage.scss';
+import '../stylesheets/lister.scss';
 
 class HomePage extends React.Component {
     constructor(props) {
@@ -43,7 +44,7 @@ class HomePage extends React.Component {
             <main className="lister">
                 {data
                     ? data.map((product, index) => (<Product key={`product-${index}`} {...product} />))
-                    : <p>loading...</p>
+                    : <LoadingSpinner />
                 }
             </main>
         );
