@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Product from '../components/Product';
+import Product from '../components/product';
 
 import '../stylesheets/global.scss';
 import '../stylesheets/listingPage.scss';
